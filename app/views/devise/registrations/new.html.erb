@@ -8,6 +8,8 @@
   	<%= f.input :name %>
   	<%= f.input :age %>
   	<%= f.input :bio %>
+    <%= f.input :school %>
+    <%= f.input :work %>
   	
     <%= f.input :email, required: true %>
     <%= f.input :password, required: true, hint: ("#{@minimum_password_length} characters minimum" if @minimum_password_length) %>
